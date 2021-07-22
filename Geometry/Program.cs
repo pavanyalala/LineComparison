@@ -18,13 +18,10 @@ namespace Geometry
 
             if (line1.CompareTo(line2) > 0)
                 Console.WriteLine("Line1 is Greater than Line2");
-            if (line1.CompareTo(line2) < 0)
+            else if (line1.CompareTo(line2) < 0)
                 Console.WriteLine("Line1 is Less than Line2");
             else
                 Console.WriteLine("Both Line1 and Line2 Are Equal");
-
-
-
         }
     }
 }
