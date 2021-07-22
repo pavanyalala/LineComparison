@@ -16,6 +16,14 @@ namespace Geometry
             double line2 = lengthCalculation1.CalculateLength();
             Console.WriteLine("Length of Line Two : " + line2);
 
+            if (line1.Equals(line2))
+                Console.WriteLine("Line1 Equals to Line2");
+            else
+                Console.WriteLine("Two lines are not Equal");
+            
+               
+            
+
         }
     }
 }
